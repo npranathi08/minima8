@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name":"Extension1",
+	"version": "0.1.0",
+	"background": {
+    "scripts": ["background.js"],
+    "persistent": false
+	},
+	"externally_connectable": {
+    "matches": ["*https://npranathi08.github.io/minima/*"]
+	}
+}
